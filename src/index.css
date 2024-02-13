@@ -1,6 +1,10 @@
 body {
     margin: 0;
+<<<<<<< HEAD
     background-image: url(/image/fondo.jpg);
+=======
+    background-image: url(/fondo.jpg);
+>>>>>>> 2b1f3c8139a968c7c8dcd17f91d5c8dc9bcbff67
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
