@@ -1,0 +1,225 @@
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20em;
+    color: white;
+}
+.barra{
+    height: 38px;
+    width: 262px;
+    font-size: 18px;
+    margin-bottom: 270px;
+}
+.button{
+    height: 45px;
+    width: 90px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #242323;
+}
+.init__welcome{
+    margin-top: 1em;
+    font-size: 80px;
+    color: chocolate;
+}
+.init__name{
+    font-size: 40px;
+    color: chocolate;
+}
+
+.films {
+    display: grid;
+    border-radius: 1em;
+    border: 2px solid rgb(5, 5, 5);
+    margin: 0.2em;
+    background-color: rgb(49, 51, 51);
+    margin:0.5em ;
+    cursor: pointer;
+    transition: transform 100ms ease;
+}
+.films:hover{
+    transform: scale(1.03);
+}
+.naves{
+    display: grid;
+    border-radius: 1em;
+    border: 2px solid rgb(5, 5, 5);
+    margin: 0.5em;
+    background-color: rgb(49, 51, 51);
+    cursor: pointer;
+    transition: transform 100ms ease;
+}
+.naves:hover{
+    transform: scale(1.03);
+}
+.personajes {
+    display: grid;
+    border-radius: 1em;
+    border: 2px solid rgb(5, 5, 5);
+    margin: 0.5em;
+    background-color: rgb(49, 51, 51);
+    cursor: pointer;
+    transition: transform 100ms ease;
+}
+.personajes:hover{
+    transform: scale(1.03);
+}
+.origin__films{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.origin__people{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.origin__starships{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.title__films{
+    margin: 2em;
+    color: #000000;
+}
+.info__films{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-right: 2em;
+}
+.info__episode{
+    display: grid;
+    justify-items: center;
+    font-size: 20px;
+}
+.films__title{
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-left: 1em;
+}
+.name__coleccionista{
+    font-size: 40px;
+    color: #aa9898;
+    margin-left: 2em;
+}
+.title__people{
+    margin: 2em;
+    color: #000000;
+    font-size: 20px;
+}
+.info__people{
+    color: #000000;
+}
+.info__eyes{
+    display: grid;
+    justify-items: center;
+    font-size: 1em;
+    margin-right: 2em;
+    font-weight: 600;
+}
+.info__gender{
+    display: grid;
+    justify-items: center;
+    margin-right: 2em;
+    font-weight: 600;
+}
+.info__hair{
+    display: grid;
+    justify-items: center;
+    font-weight: 600;
+    margin-right: 2em;
+}
+.info__skin{
+    display: grid;
+    justify-items: center;
+    margin-right: 2em;
+    font-weight: 600;
+}
+.info__peso{
+    display: grid;
+    justify-items: center;
+    margin-right: 2em;
+    font-weight: 600;
+}
+.info__height{
+    display: grid;
+    justify-items: center;
+    margin-right: 2em;
+    font-weight: 600;
+}
+.people__title{
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 1em;
+}
+.title__eyes{
+    color: #ffffff;
+}
+.title__gender{
+    color: #ffffff;
+}
+.title__hair{
+    color: #ffffff;
+}
+.title__skin{
+    color: #ffffff;
+}
+.title__peso{
+    color: #ffffff;
+}
+.title__height{
+    color: #ffffff;
+}
+.title__starships{
+    margin: 2em;
+    color: #000000;
+    font-size: 20px;
+}
+.info__starships{
+    color: #000000;
+}
+.info__cargo{
+    display: grid;
+    justify-items: center;
+    margin-right: 2em;
+    font-weight: 600;
+}
+.info__consumables{
+    display: grid;
+    justify-items: center;
+    margin-right: 2em;
+    font-weight: 600;
+}   
+.info__crew{
+    display: grid;
+    justify-items: center;
+    margin-right: 2em;
+    font-weight: 600;
+}
+.info__length{
+    display: grid;
+    justify-items: center;
+    margin-right: 2em;
+    font-weight: 600;
+}
+.title__cargo {
+    color: #ffffff;
+}
+.title__consumables{
+    color: #ffffff;
+}
+.title__crew{
+    color: #ffffff;
+}
+.title__length{
+    color: #ffffff;
+}
+
+
+
+
+
